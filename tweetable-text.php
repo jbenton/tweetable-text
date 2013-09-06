@@ -55,7 +55,7 @@ add_shortcode( 'tweetable', array('TweetableText', 'makeTweetable') );
 function tweetabletext_header() {
 ?>
 <script type="text/javascript">
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){
   $(".tweetable").hover(
       function(){
             if ($(this).data('vis') != true) {
