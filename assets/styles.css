@@ -1,0 +1,51 @@
+.tweetable {
+	position: relative;
+}
+.tweetable a { 
+	text-decoration: none; 
+	border-bottom: 0px dotted #ed2e24; 
+	color: #333; 
+	background: whitesmoke; 
+}
+.tweetable a:hover { 
+	text-decoration: none; 
+	border-bottom: 0px dotted #ed2e24; 
+	color: #ed2e24;
+}
+.sharebuttons {
+	display: none; 
+	position: absolute; 
+	top: -30px; 
+	left: 0px; 
+	z-index: 101;  
+	width: 55px; 
+	background: #ed2e24; 
+	color: whitesmoke; 
+	border-radius: 3px; 
+	height: 20px; 
+	padding: 5px; 
+	text-align: center; 
+	font-family: 'helvetica neue', helvetica, arial, sans-serif; 
+	font-size: 14px; 
+	font-weight: bold; 
+}
+.sharebuttons a { 
+	color: whitesmoke; 
+	background: #ed2e24; 
+	border: 0; 
+}
+.sharebuttons a:hover { 
+	color: whitesmoke; 
+	background: #ed2e24; 
+	border: 0; 
+}
+.sharebuttons span.brand a {
+	font-size: 10px; 
+	color: whitesmoke; 
+	text-decoration:none; 
+	display: block; 
+	padding: 0 0 0 25px; 
+	margin: 0; 
+	border: none; 
+	height: 12px; 
+}
