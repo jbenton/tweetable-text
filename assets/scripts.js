@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){
   $(".tweetable").hover(
       function(){
             if ($(this).data('vis') != true) {

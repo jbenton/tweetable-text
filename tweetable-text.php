@@ -4,7 +4,7 @@
 Plugin Name: Tweetable Text
 Description: Make your posts more shareable. Add a Tweet button to key sentences right inside each blog post with a simple [tweetable] tag.
 Version: 1.2
-Author: Salim Virani (original), updated by Joshua Benton of Nieman Lab
+Author: Salim Virani (original), updated by Joshua Benton of Nieman Lab, Justin Chick
 */
 
 
